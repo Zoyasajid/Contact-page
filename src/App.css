@@ -1,38 +1,236 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+.App{
+  /* background-color: aqua; */
+  margin-right: 20px;
+  margin-left: 20px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
+  height: 19vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* background-color: aliceblue; */
+
+
+}
+.logo{
+  margin-top: 30px;
+  margin-left: 40px;
+  height: 10vh;
+  width: 50px;
+/* size: 2rem; */
+
+  color: blue;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 40px;
+  margin-top: 24px;
+  width: 100%;
+
+
+}
+li {
+  float: right  ;
+  display: inline;
+  margin: 16px;
+justify-content: space-between;
+font-size: 19px;
+font-weight: 700;
+/* margin-top: 50px; */
+margin-right: 40px;
+color: black;
+/* color: aqua; */
+}
+.text{
+  margin-left: 180px;
+  margin-top: 10px;
+
+}
+.text h1{
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.text p{
+  margin-top: 10px;
+  width: 71%;
+
+}
+.btn-div{
+  margin-top: 50px;
+  display: flex;
+}
+.btn-container{
+  margin-left: 180px;
+  margin-top: 10px;
+  width: 40%;
+}
+.btn{
+  width: 38%;
+  margin-right: 15px;
+  height: 40px;
+  background-color: black;
+  text-align: center;
   color: white;
-}
+  font-weight: 650;
+  cursor: pointer;
+  border: 1px solid black;
 
-.App-link {
-  color: #61dafb;
 }
+.btn:hover{
+  background-color: whitesmoke;
+  color: black;
+}
+.btn2{
+  width: 79%;
+  margin-top: 16px;
+  background-color: whitesmoke;
+  text-align: center;
+  color: black;
+  font-weight: 800;
+  /* border: none; */
+} 
+.btn2:hover{
+  background-color: black;
+  color: whitesmoke;
+}
+.inputs{
+    margin-top: 30px;
+    font-size: 19px;
+    font-weight: 600;
+    /* background-color: aqua; */
+    height: 200px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    
+}
+.input{
+  margin-top: 20px;
+  width: 69%;
+  text-align: center;
+  height: 40px;
+  border: 2px solid black;
+  font: 1em/1.25em Arial, Helvetica, sans-serif
+
+}
+.btn3{
+  margin-left:240px ;
+  margin-top: 20px;
+  /* background-color: aqua; */
+}
+.inputText{
+  height: 70px;
+}
+.pic{
+  margin-left:-70px ;
+  margin-top: -59px;
+
+}
+@media (max-width:700px) {
+ ul{
+  margin-right: 12px;
+  margin-top: 1px;
+}
+.App{
+  /* background-color: aqua; */
+  margin-right: 0;
+  margin-left: 0;
+
+}
+li{
+  display: flex;
+  margin: 30px;
+justify-content: space-between;
+font-size: 29px;
+font-weight: 700;
+margin-right: 20px;
+color: black; 
+}
+.li{
+  display: none;
+}
+.text{
+  margin-left: 18px;
+  margin-top: 3px;
+  margin-right: 8px;
+
+}
+.text h1{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.text p{
+  margin-top: 10px;
+  width: 99%;
+
+}
+.btn-container{
+  margin-left: 17px;
+  margin-top: 10px;
+  width: 40%;
+}
+.btn-div{
+  margin-top: 30px;
+  display: block;
+}
+.pic{
+  margin-left:2px ;
+  margin-top: 10px;
+}
+.sec-btn{
+  display: flex;
+  gap: 10px;
+  width: 220%;
+}
+.btn{
+  width: 180%;
+ 
+  /* display: inline; */
+  /* flex-wrap: wrap; */
+  /* margin-right: 15px; */
+  height: auto;
+  margin: 3px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  cursor: pointer;
+  border: 1px solid black;
+
+}
+.img{
+  height: 50vh;
+  width: 90%;
+}
+.input{
+  width: 220%;
+    margin-top: 4px;
+    height: 5vh;
+
+}
+.inputText{
+height: 10vh;
+}
+.btn2{
+  height: 5vh;
+width: 210%;
+}
+.btn3{
+  margin-top: 20px;
+  height: 5vh;
+  margin-left: 150px;
+  width: 80%;
+}
+.btn2:hover{
+  background-color: black;
+  color: whitesmoke;
+}
+.btn2{
+  background-color: whitesmoke;
+  color: black;
+}
 }
